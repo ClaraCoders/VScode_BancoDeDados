@@ -1,0 +1,16 @@
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\bin\Debug\net5.0\MyBank.exe
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\bin\Debug\net5.0\MyBank.deps.json
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\bin\Debug\net5.0\MyBank.runtimeconfig.json
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\bin\Debug\net5.0\MyBank.runtimeconfig.dev.json
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\bin\Debug\net5.0\MyBank.dll
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\bin\Debug\net5.0\ref\MyBank.dll
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\bin\Debug\net5.0\MyBank.pdb
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\obj\Debug\net5.0\MyBank.csproj.AssemblyReference.cache
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\obj\Debug\net5.0\MyBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\obj\Debug\net5.0\MyBank.AssemblyInfoInputs.cache
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\obj\Debug\net5.0\MyBank.AssemblyInfo.cs
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\obj\Debug\net5.0\MyBank.csproj.CoreCompileInputs.cache
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\obj\Debug\net5.0\MyBank.dll
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\obj\Debug\net5.0\ref\MyBank.dll
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\obj\Debug\net5.0\MyBank.pdb
+C:\Users\Clara\Desktop\BankOO\VScode_BankOO\MyBank\obj\Debug\net5.0\MyBank.genruntimeconfig.cache
