@@ -6,22 +6,13 @@ namespace MyBank
     {
         static void Main(string[] args)
         {
-           client clientAna = new client();
+           client clientAna = new client("Ana", 1234, 789, 100.50);
+           client clientClara = new client("Clara", 1234, 790, 3000);
 
-           clientAna.titular = "Ana";
-           clientAna.agencia = 1234;
-           clientAna.conta = 789;
-           clientAna.saldo = 100.50;
-
-           client clientClara = new client();
-
-           clientClara.titular = "Clara";
-           clientClara.agencia = 1234;
-           clientClara.conta = 790;
-           clientClara.saldo = 3000;
 
            Console.WriteLine("O titular desta conta é: "+ clientAna.titular);
            Console.WriteLine("O titular desta conta é: "+ clientClara.titular);
+           
         }
     }
 }
