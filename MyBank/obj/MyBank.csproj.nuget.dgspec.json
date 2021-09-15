@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Clara\\Desktop\\BankOO\\VScode_BankOO\\Mybank\\MyBank.csproj": {}
+    "C:\\Users\\Clara\\Desktop\\BankOO\\VScode_BankOO\\MyBank\\MyBank.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Clara\\Desktop\\BankOO\\VScode_BankOO\\Mybank\\MyBank.csproj": {
+    "C:\\Users\\Clara\\Desktop\\BankOO\\VScode_BankOO\\MyBank\\MyBank.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Clara\\Desktop\\BankOO\\VScode_BankOO\\Mybank\\MyBank.csproj",
+        "projectUniqueName": "C:\\Users\\Clara\\Desktop\\BankOO\\VScode_BankOO\\MyBank\\MyBank.csproj",
         "projectName": "MyBank",
-        "projectPath": "C:\\Users\\Clara\\Desktop\\BankOO\\VScode_BankOO\\Mybank\\MyBank.csproj",
+        "projectPath": "C:\\Users\\Clara\\Desktop\\BankOO\\VScode_BankOO\\MyBank\\MyBank.csproj",
         "packagesPath": "C:\\Users\\Clara\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Clara\\Desktop\\BankOO\\VScode_BankOO\\Mybank\\obj\\",
+        "outputPath": "C:\\Users\\Clara\\Desktop\\BankOO\\VScode_BankOO\\MyBank\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
