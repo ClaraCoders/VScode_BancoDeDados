@@ -2,7 +2,7 @@ public class Client{
     public string titular;
     public int agencia;
     public int conta;
-    public double saldo;
+    private double saldo {get; set;}
 
     public Client() {}
 
@@ -13,6 +13,7 @@ public class Client{
         this.conta = conta;
         this.saldo = saldo;
     }
+
 
     public bool Sacar(double valor)
     {
