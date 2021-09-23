@@ -3,6 +3,7 @@ public class Client{
     public double Conta { get; set; }
     public string Titular { get; set; }
     public int Agencia { get; set; }
+    public static int TotalContas { get; set; }
 
     private double _saldo;
 
@@ -24,6 +25,8 @@ public class Client{
         Titular = client_titular;
         Agencia = client_agencia;
         Saldo = client_saldo;
+
+        TotalContas ++;
     }
 
     
