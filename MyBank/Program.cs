@@ -29,7 +29,7 @@ namespace MyBank
             Console.WriteLine("O saldo desta conta é: "+ clientClara.Saldo);
             Console.WriteLine("O número desta conta é: "+ clientClara.Conta);
             
-            Console.WriteLine("O número desta conta é: "+ Client.TotalContas);
+            Console.WriteLine("O número total de contas é/são: "+ Client.TotalContas);
 
         }
     }
