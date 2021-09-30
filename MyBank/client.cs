@@ -4,8 +4,11 @@ public class Client{
     public string Titular { get; set; }
     public int Agencia { get; set; }
     public static int TotalContas { get; set; }
+    public static double Comissao { get; set; }
+
 
     private double _saldo;
+    
 
     public double Saldo { 
         get{
@@ -20,13 +23,16 @@ public class Client{
   
     public Client() {}
 
-    public Client(string client_titular, int client_agencia, double client_saldo)
+    public Client(string client_titular, int client_agencia, double client_saldo, Funcionario funcionario)
     {
         Titular = client_titular;
         Agencia = client_agencia;
         Saldo = client_saldo;
 
         TotalContas ++;
+        Comissao += client_saldo * 0.01;
+
+        funcionario.Comissao += client_saldo * 0.01;
     }
 
     
