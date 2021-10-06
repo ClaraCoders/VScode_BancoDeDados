@@ -7,24 +7,31 @@ namespace MyBank
         static void Main(string[] args)
         {
 
-            Funcionario Lucas = new Funcionario();
-            Lucas.Name = "Lucas";
-            Lucas.CPF = "130.130.130-30";
-            Lucas.Cargo = "Secretário";
-            Lucas.Salario = 1200;
+            Funcionario Lucas = new Funcionario() {
+                Name = "Lucas",
+                CPF = "130.130.130-30",
+                Cargo = "Secretário",
+                Salario = 1200,
+            };
+            
 
-            Funcionario Caroline = new Funcionario();
-            Caroline.Name = "Caroline";
-            Caroline.CPF = "120.120.120-20";
-            Caroline.Cargo = "Administradora";
-            Caroline.Salario = 3000;
+            Funcionario Caroline = new Funcionario(){
+                Name = "Caroline",
+                CPF = "120.120.120-20",
+                Cargo = "Administradora",
+                Salario = 3000,
+            };
+            
 
-            Funcionario Elza = new Funcionario();
-            Elza.Name = "Elza";
-            Elza.CPF = "110.110.110-10";
-            Elza.Cargo = "Administradora";
-            Elza.Salario = 4000;
+            Funcionario Elza = new Funcionario() {
+                Name = "Elza",
+                CPF = "110.110.110-10",
+                Cargo = "Administradora",
+                Salario = 4000,
+            };
+            
 
+            Lucas.Bonificacao = Lucas.Salario;
 
             Client clientAna = new Client("Ana", 1234, 100.50, Lucas);
             clientAna.Conta = 789;
