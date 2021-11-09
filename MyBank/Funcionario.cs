@@ -1,4 +1,4 @@
-public abstract class Funcionario {
+public abstract class Funcionario : PessoaFisica{
     
     public string Name { get; set; }
     public string CPF { get; set; }
@@ -10,11 +10,18 @@ public abstract class Funcionario {
         get{
             return _bonificacao;
         }
-
         set{
                 _bonificacao += value * 0.01;
-            
         }
     }
     
+    public abstract int CalcularFerias();
+
+    public double RemuneracaoTotal(double Salario){
+        return Salario * 13 + Salario;
+    }
+
+    public double RemuneracaoTotal(double Salario, double Bonificacao){
+        return Salario * 13 + Salario + Bonificacao;
+    }
 }
